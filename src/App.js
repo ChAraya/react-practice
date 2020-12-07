@@ -1,4 +1,5 @@
 import React from 'react'
+import ControlledInputs from "./components/forms/controlledInputs";
 // import MultipleReturns from "./components/conditionalRender/multipleReturns";
 // import Error from './components/error'
 // import UseState from './components/useState/useState'
@@ -9,7 +10,7 @@ import React from 'react'
 // import UseEffectCleanup from "./components/useEffect/useEffectCleanup";
 // import UseEffecFetchData from "./components/useEffect/useEffecFetchData"
 // import ShortCircuit from './components/conditionalRender/shortCircuit'
-import ShowHide from './components/conditionalRender/showHide'
+// import ShowHide from './components/conditionalRender/showHide'
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
       {/* <UseEffecFetchData></UseEffecFetchData> */}
       {/* <MultipleReturns></MultipleReturns> */}
       {/* <ShortCircuit></ShortCircuit> */}
-      <ShowHide></ShowHide>
+      {/* <ShowHide></ShowHide> */}
+      <ControlledInputs></ControlledInputs>
     </div>
   );
 }
