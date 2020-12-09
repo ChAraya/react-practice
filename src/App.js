@@ -1,6 +1,6 @@
 import React from 'react'
 // import ControlledInputs from "./components/forms/controlledInputs";
-import MultipleInputs from "./components/forms/multipleInputs";
+// import MultipleInputs from "./components/forms/multipleInputs";
 // import MultipleReturns from "./components/conditionalRender/multipleReturns";
 // import Error from './components/error'
 // import UseState from './components/useState/useState'
@@ -12,6 +12,8 @@ import MultipleInputs from "./components/forms/multipleInputs";
 // import UseEffecFetchData from "./components/useEffect/useEffecFetchData"
 // import ShortCircuit from './components/conditionalRender/shortCircuit'
 // import ShowHide from './components/conditionalRender/showHide'
+// import UseRefBasic from "./components/useRef/useRefBasic";
+import UseReducer from "./components/useReducer/useReducer";
 
 function App() {
   return (
@@ -28,7 +30,9 @@ function App() {
       {/* <ShortCircuit></ShortCircuit> */}
       {/* <ShowHide></ShowHide> */}
       {/* <ControlledInputs></ControlledInputs> */}
-      <MultipleInputs></MultipleInputs>
+      {/* <MultipleInputs></MultipleInputs> */}
+      {/* <UseRefBasic></UseRefBasic> */}
+      <UseReducer></UseReducer>
     </div>
   );
 }
