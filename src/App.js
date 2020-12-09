@@ -1,5 +1,6 @@
 import React from 'react'
-import ControlledInputs from "./components/forms/controlledInputs";
+// import ControlledInputs from "./components/forms/controlledInputs";
+import MultipleInputs from "./components/forms/multipleInputs";
 // import MultipleReturns from "./components/conditionalRender/multipleReturns";
 // import Error from './components/error'
 // import UseState from './components/useState/useState'
@@ -26,7 +27,8 @@ function App() {
       {/* <MultipleReturns></MultipleReturns> */}
       {/* <ShortCircuit></ShortCircuit> */}
       {/* <ShowHide></ShowHide> */}
-      <ControlledInputs></ControlledInputs>
+      {/* <ControlledInputs></ControlledInputs> */}
+      <MultipleInputs></MultipleInputs>
     </div>
   );
 }
