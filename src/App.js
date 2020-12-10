@@ -13,7 +13,7 @@ import React from 'react'
 // import ShortCircuit from './components/conditionalRender/shortCircuit'
 // import ShowHide from './components/conditionalRender/showHide'
 // import UseRefBasic from "./components/useRef/useRefBasic";
-import UseReducer from "./components/useReducer/useReducer";
+import UseReducer from "./components/useReducer";
 
 function App() {
   return (
